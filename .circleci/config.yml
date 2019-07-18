@@ -25,7 +25,7 @@ jobs:
         name: Build app
         command: 
             dotnet build
-      - run
+      - run:
         name: Run app
         command:
             dotnet run
