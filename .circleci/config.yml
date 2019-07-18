@@ -2,7 +2,7 @@
 #
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
-version: 2
+version: 2.0
 jobs:
   build:
     docker:
@@ -15,17 +15,16 @@ jobs:
       # - image: circleci/mongo:3.4.4
 
     steps:
-      - checkout
-
-      - run:
-        name: Restore packages
-        command: dotnet restore
-      
-      - run:
-        name: Build app
-        command: 
-            dotnet build
-      - run:
-        name: Run app
-        command:
-            dotnet run
+     - checkout
+     - run:
+         name: Restore packages
+         command:
+           dotnet restore
+     - run:
+         name: Build App
+         command:
+           dotnet build
+     - run:
+         name: Run App
+         command:
+           dotnet run
