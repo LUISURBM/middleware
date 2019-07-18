@@ -1,0 +1,31 @@
+# Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+      - image: mcr.microsoft.com/dotnet/core/sdk:2.2
+
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/mongo:3.4.4
+
+    steps:
+      - checkout
+
+      - run:
+        name: Restore packages
+        command: dotnet restore
+      
+      - run:
+        name: Build app
+        command: 
+            dotnet build
+      - run
+        name: Run app
+        command:
+            dotnet run
