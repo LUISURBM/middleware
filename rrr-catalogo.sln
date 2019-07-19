@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rrr-catalogo", "rrr-catalogo\rrr-catalogo.csproj", "{ABA17FE1-F31C-44E5-A40F-C6715333CC31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rrr-catalogo.Tests", "rrr-catalogo.Tests\rrr-catalogo.Tests.csproj", "{97C4F6DE-4517-4670-B988-99D1E77406EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABA17FE1-F31C-44E5-A40F-C6715333CC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA17FE1-F31C-44E5-A40F-C6715333CC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA17FE1-F31C-44E5-A40F-C6715333CC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA17FE1-F31C-44E5-A40F-C6715333CC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C4F6DE-4517-4670-B988-99D1E77406EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C4F6DE-4517-4670-B988-99D1E77406EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C4F6DE-4517-4670-B988-99D1E77406EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C4F6DE-4517-4670-B988-99D1E77406EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA37E7B9-DB03-4042-9519-4A52F7EDE39A}
+	EndGlobalSection
+EndGlobal
